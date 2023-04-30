@@ -1,0 +1,102 @@
+/*
+ * The Typekit service used to deliver this font or fonts for use on websites
+ * is provided by Adobe and is subject to these Terms of Use
+ * http://www.adobe.com/products/eulas/tou_typekit. For font license
+ * information, see the list below.
+ *
+ * big-caslon-fb:
+ *   - http://typekit.com/eulas/00000000000000003b9ae11f
+ *   - http://typekit.com/eulas/00000000000000003b9ae120
+ *   - http://typekit.com/eulas/00000000000000003b9ae121
+ * europa:
+ *   - http://typekit.com/eulas/00000000000000003b9b12fa
+ *   - http://typekit.com/eulas/00000000000000003b9b12fe
+ *   - http://typekit.com/eulas/00000000000000003b9b12fd
+ *   - http://typekit.com/eulas/00000000000000003b9b12f9
+ *   - http://typekit.com/eulas/00000000000000003b9b12fb
+ *   - http://typekit.com/eulas/00000000000000003b9b12fc
+ *
+ * © 2009-2022 Adobe Systems Incorporated. All Rights Reserved.
+ */
+/*{"last_published":"2019-04-03 22:34:05 UTC"}*/
+
+@import url("https://web.archive.org/web/20220402003601cs_/https://p.typekit.net/p.css?s=1&k=wfh4bhp&ht=tk&f=15528.15529.15530.17251.17252.17253.29402.29403.29404&a=696077&app=typekit&e=css");
+
+@font-face {
+font-family:"europa";
+src:url("https://web.archive.org/web/20220402003601im_/https://use.typekit.net/af/f3ba4f/00000000000000003b9b12fa/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://web.archive.org/web/20220402003601im_/https://use.typekit.net/af/f3ba4f/00000000000000003b9b12fa/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://web.archive.org/web/20220402003601im_/https://use.typekit.net/af/f3ba4f/00000000000000003b9b12fa/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:700;font-stretch:normal;
+}
+
+@font-face {
+font-family:"europa";
+src:url("https://web.archive.org/web/20220402003601im_/https://use.typekit.net/af/3e64fb/00000000000000003b9b12fe/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("woff2"),url("https://web.archive.org/web/20220402003601im_/https://use.typekit.net/af/3e64fb/00000000000000003b9b12fe/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("woff"),url("https://web.archive.org/web/20220402003601im_/https://use.typekit.net/af/3e64fb/00000000000000003b9b12fe/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:300;font-stretch:normal;
+}
+
+@font-face {
+font-family:"europa";
+src:url("https://web.archive.org/web/20220402003601im_/https://use.typekit.net/af/4eabcf/00000000000000003b9b12fd/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://web.archive.org/web/20220402003601im_/https://use.typekit.net/af/4eabcf/00000000000000003b9b12fd/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://web.archive.org/web/20220402003601im_/https://use.typekit.net/af/4eabcf/00000000000000003b9b12fd/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+font-family:"europa";
+src:url("https://web.archive.org/web/20220402003601im_/https://use.typekit.net/af/a386b3/00000000000000003b9b12f9/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i3&v=3") format("woff2"),url("https://web.archive.org/web/20220402003601im_/https://use.typekit.net/af/a386b3/00000000000000003b9b12f9/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i3&v=3") format("woff"),url("https://web.archive.org/web/20220402003601im_/https://use.typekit.net/af/a386b3/00000000000000003b9b12f9/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i3&v=3") format("opentype");
+font-display:auto;font-style:italic;font-weight:300;font-stretch:normal;
+}
+
+@font-face {
+font-family:"europa";
+src:url("https://web.archive.org/web/20220402003601im_/https://use.typekit.net/af/e32ad9/00000000000000003b9b12fb/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff2"),url("https://web.archive.org/web/20220402003601im_/https://use.typekit.net/af/e32ad9/00000000000000003b9b12fb/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff"),url("https://web.archive.org/web/20220402003601im_/https://use.typekit.net/af/e32ad9/00000000000000003b9b12fb/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("opentype");
+font-display:auto;font-style:italic;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+font-family:"europa";
+src:url("https://web.archive.org/web/20220402003601im_/https://use.typekit.net/af/a6fa4a/00000000000000003b9b12fc/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff2"),url("https://web.archive.org/web/20220402003601im_/https://use.typekit.net/af/a6fa4a/00000000000000003b9b12fc/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff"),url("https://web.archive.org/web/20220402003601im_/https://use.typekit.net/af/a6fa4a/00000000000000003b9b12fc/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("opentype");
+font-display:auto;font-style:italic;font-weight:700;font-stretch:normal;
+}
+
+@font-face {
+font-family:"big-caslon-fb";
+src:url("https://web.archive.org/web/20220402003601im_/https://use.typekit.net/af/846c1f/00000000000000003b9ae11f/27/l?primer=7fa3915bdafdf03041871920a205bef951d72bf64dd4c4460fb992e3ecc3a862&fvd=n7&v=3") format("woff2"),url("https://web.archive.org/web/20220402003601im_/https://use.typekit.net/af/846c1f/00000000000000003b9ae11f/27/d?primer=7fa3915bdafdf03041871920a205bef951d72bf64dd4c4460fb992e3ecc3a862&fvd=n7&v=3") format("woff"),url("https://web.archive.org/web/20220402003601im_/https://use.typekit.net/af/846c1f/00000000000000003b9ae11f/27/a?primer=7fa3915bdafdf03041871920a205bef951d72bf64dd4c4460fb992e3ecc3a862&fvd=n7&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:700;font-stretch:normal;
+}
+
+@font-face {
+font-family:"big-caslon-fb";
+src:url("https://web.archive.org/web/20220402003601im_/https://use.typekit.net/af/7cf50c/00000000000000003b9ae120/27/l?primer=7fa3915bdafdf03041871920a205bef951d72bf64dd4c4460fb992e3ecc3a862&fvd=n4&v=3") format("woff2"),url("https://web.archive.org/web/20220402003601im_/https://use.typekit.net/af/7cf50c/00000000000000003b9ae120/27/d?primer=7fa3915bdafdf03041871920a205bef951d72bf64dd4c4460fb992e3ecc3a862&fvd=n4&v=3") format("woff"),url("https://web.archive.org/web/20220402003601im_/https://use.typekit.net/af/7cf50c/00000000000000003b9ae120/27/a?primer=7fa3915bdafdf03041871920a205bef951d72bf64dd4c4460fb992e3ecc3a862&fvd=n4&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+font-family:"big-caslon-fb";
+src:url("https://web.archive.org/web/20220402003601im_/https://use.typekit.net/af/b548a1/00000000000000003b9ae121/27/l?primer=7fa3915bdafdf03041871920a205bef951d72bf64dd4c4460fb992e3ecc3a862&fvd=i4&v=3") format("woff2"),url("https://web.archive.org/web/20220402003601im_/https://use.typekit.net/af/b548a1/00000000000000003b9ae121/27/d?primer=7fa3915bdafdf03041871920a205bef951d72bf64dd4c4460fb992e3ecc3a862&fvd=i4&v=3") format("woff"),url("https://web.archive.org/web/20220402003601im_/https://use.typekit.net/af/b548a1/00000000000000003b9ae121/27/a?primer=7fa3915bdafdf03041871920a205bef951d72bf64dd4c4460fb992e3ecc3a862&fvd=i4&v=3") format("opentype");
+font-display:auto;font-style:italic;font-weight:400;font-stretch:normal;
+}
+
+.tk-europa { font-family: "europa",sans-serif; }
+.tk-big-caslon-fb { font-family: "big-caslon-fb",serif; }
+
+/*
+     FILE ARCHIVED ON 00:36:01 Apr 02, 2022 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 05:51:09 Apr 17, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 63.151
+  exclusion.robots: 0.206
+  exclusion.robots.policy: 0.195
+  cdx.remote: 0.067
+  esindex: 0.01
+  LoadShardBlock: 33.991 (3)
+  PetaboxLoader3.datanode: 108.802 (6)
+  load_resource: 272.275 (2)
+  PetaboxLoader3.resolve: 114.609 (2)
+  loaddict: 68.369
+*/

@@ -1,0 +1,80 @@
+@media (min-width: 0px) { html, body { font-size:12px !important; line-height:1.5 !important; font-family:europa, sans-serif !important; } }
+@media (min-width: 768px) { html, body { font-family:europa, sans-serif !important; } }
+@media (min-width: 992px) { html, body { font-size:15px !important; font-family:europa, sans-serif !important; } }
+@media (min-width: 1300px) { html, body { font-family:europa, sans-serif !important; } }
+@media (min-width: 0px) { .display-2 { font-size:4.3rem !important; line-height:1.1 !important; margin:0 0 1.125rem !important; font-family:big-caslon-fb, serif !important; } }
+@media (min-width: 768px) { .display-2 { font-size:5.96rem !important; font-family:big-caslon-fb, serif !important; } }
+@media (min-width: 992px) { .display-2 { font-size:9.969rem !important; margin:0 0 1.2rem !important; font-family:big-caslon-fb, serif !important; } }
+@media (min-width: 1300px) { .display-2 { font-family:big-caslon-fb, serif !important; } }
+@media (min-width: 0px) { .display-3 { font-size:3.583rem !important; line-height:1.1 !important; margin:0 0 1.125rem !important; font-family:big-caslon-fb, serif !important; } }
+@media (min-width: 768px) { .display-3 { font-size:4.768rem !important; font-family:big-caslon-fb, serif !important; } }
+@media (min-width: 992px) { .display-3 { font-size:7.478rem !important; margin:0 0 1.2rem !important; font-family:big-caslon-fb, serif !important; } }
+@media (min-width: 1300px) { .display-3 { font-family:big-caslon-fb, serif !important; } }
+@media (min-width: 0px) { .display-4 { font-size:2.986rem !important; line-height:1.1 !important; margin:0 0 1.125rem !important; font-family:big-caslon-fb, serif !important; } }
+@media (min-width: 768px) { .display-4 { font-size:3.815rem !important; font-family:big-caslon-fb, serif !important; } }
+@media (min-width: 992px) { .display-4 { font-size:5.61rem !important; margin:0 0 1.2rem !important; font-family:big-caslon-fb, serif !important; } }
+@media (min-width: 1300px) { .display-4 { font-family:big-caslon-fb, serif !important; } }
+@media (min-width: 0px) { h1, .h1 { font-size:2.488rem !important; font-weight:300 !important; line-height:1.1 !important; margin:0 0 1.2375rem !important; font-family:big-caslon-fb, serif !important; } }
+@media (min-width: 768px) { h1, .h1 { font-size:3.052rem !important; font-family:big-caslon-fb, serif !important; } }
+@media (min-width: 992px) { h1, .h1 { font-size:4.209rem !important; margin:0 0 1.32rem !important; font-family:big-caslon-fb, serif !important; } }
+@media (min-width: 1300px) { h1, .h1 { font-family:big-caslon-fb, serif !important; } }
+@media (min-width: 0px) { h2, .h2 { font-size:2.074rem !important; font-weight:300 !important; line-height:1.2 !important; margin:0 0 1rem !important; font-family:big-caslon-fb, serif !important; } }
+@media (min-width: 768px) { h2, .h2 { font-size:2.441rem !important; font-family:big-caslon-fb, serif !important; } }
+@media (min-width: 992px) { h2, .h2 { font-size:3.157rem !important; font-family:big-caslon-fb, serif !important; } }
+@media (min-width: 1300px) { h2, .h2 { font-family:big-caslon-fb, serif !important; } }
+@media (min-width: 0px) { h3, .h3, .news-and-events-featured-item:nth-of-type(1) h5 { font-size:1.728rem !important; font-weight:400 !important; line-height:1.2 !important; margin:0 0 1rem !important; font-family:big-caslon-fb, serif !important; } }
+@media (min-width: 768px) { h3, .h3, .news-and-events-featured-item:nth-of-type(1) h5 { font-size:1.953rem !important; font-family:big-caslon-fb, serif !important; } }
+@media (min-width: 992px) { h3, .h3, .news-and-events-featured-item:nth-of-type(1) h5 { font-size:2.369rem !important; font-family:big-caslon-fb, serif !important; } }
+@media (min-width: 1300px) { h3, .h3, .news-and-events-featured-item:nth-of-type(1) h5 { font-family:big-caslon-fb, serif !important; } }
+@media (min-width: 0px) { .intro-paragraph { font-size:1.44rem !important; line-height:1.4 !important; margin:0 0 1.5rem !important; font-family:europa, sans-serif !important; } }
+@media (min-width: 768px) { .intro-paragraph { font-size:1.563rem !important; font-family:europa, sans-serif !important; } }
+@media (min-width: 992px) { .intro-paragraph { font-size:1.777rem !important; font-family:europa, sans-serif !important; } }
+@media (min-width: 1300px) { .intro-paragraph { font-family:europa, sans-serif !important; } }
+@media (min-width: 0px) { .intro-paragraph > div { font-size:1.44rem !important; line-height:1.4 !important; font-family:europa, sans-serif !important; } }
+@media (min-width: 768px) { .intro-paragraph > div { font-size:1.563rem !important; font-family:europa, sans-serif !important; } }
+@media (min-width: 992px) { .intro-paragraph > div { font-size:1.777rem !important; font-family:europa, sans-serif !important; } }
+@media (min-width: 1300px) { .intro-paragraph > div { font-family:europa, sans-serif !important; } }
+@media (min-width: 0px) { h4, .h4 { font-size:1.44rem !important; font-weight:300 !important; line-height:1.4 !important; margin:0 0 1rem !important; font-family:big-caslon-fb, serif !important; } }
+@media (min-width: 768px) { h4, .h4 { font-size:1.563rem !important; font-family:big-caslon-fb, serif !important; } }
+@media (min-width: 992px) { h4, .h4 { font-size:1.777rem !important; font-family:big-caslon-fb, serif !important; } }
+@media (min-width: 1300px) { h4, .h4 { font-family:big-caslon-fb, serif !important; } }
+@media (min-width: 0px) { p { font-size:1.2rem !important; font-weight:400 !important; line-height:1.5 !important; margin:0 0 1.5rem !important; font-family:europa, sans-serif !important; } }
+@media (min-width: 768px) { p { font-family:europa, sans-serif !important; } }
+@media (min-width: 992px) { p { font-family:europa, sans-serif !important; } }
+@media (min-width: 1300px) { p { font-family:europa, sans-serif !important; } }
+@media (min-width: 0px) { li { font-size:1.2rem !important; font-weight:400 !important; line-height:1.5 !important; font-family:europa, sans-serif !important; } }
+@media (min-width: 768px) { li { font-family:europa, sans-serif !important; } }
+@media (min-width: 992px) { li { font-family:europa, sans-serif !important; } }
+@media (min-width: 1300px) { li { font-family:europa, sans-serif !important; } }
+@media (min-width: 0px) { p > div { font-size:1.2rem !important; font-weight:400 !important; line-height:1.5 !important; font-family:europa, sans-serif !important; } }
+@media (min-width: 768px) { p > div { font-family:europa, sans-serif !important; } }
+@media (min-width: 992px) { p > div { font-family:europa, sans-serif !important; } }
+@media (min-width: 1300px) { p > div { font-family:europa, sans-serif !important; } }
+@media (min-width: 0px) { .soulmenu a { font-size:1rem !important; font-weight:600 !important; letter-spacing:1px !important; text-transform:uppercase !important; font-family:europa, sans-serif !important; } }
+@media (min-width: 768px) { .soulmenu a { font-family:europa, sans-serif !important; } }
+@media (min-width: 992px) { .soulmenu a { font-family:europa, sans-serif !important; } }
+@media (min-width: 1300px) { .soulmenu a { font-family:europa, sans-serif !important; } }
+@media (min-width: 0px) { h5, .h5 { font-size:1.2rem !important; font-weight:300 !important; margin:0 0 1rem !important; font-family:big-caslon-fb, serif !important; } }
+@media (min-width: 768px) { h5, .h5 { font-size:1.25rem !important; font-family:big-caslon-fb, serif !important; } }
+@media (min-width: 992px) { h5, .h5 { font-size:1.333rem !important; font-family:big-caslon-fb, serif !important; } }
+@media (min-width: 1300px) { h5, .h5 { font-family:big-caslon-fb, serif !important; } }
+@media (min-width: 0px) { .soulbuttons, button { font-size:1rem !important; font-weight:600 !important; letter-spacing:1px !important; text-transform:uppercase !important; font-family:europa, sans-serif !important; } }
+@media (min-width: 768px) { .soulbuttons, button { font-family:europa, sans-serif !important; } }
+@media (min-width: 992px) { .soulbuttons, button { font-family:europa, sans-serif !important; } }
+@media (min-width: 1300px) { .soulbuttons, button { font-family:europa, sans-serif !important; } }
+@media (min-width: 0px) { .tinycopy, div.tinycopy p, .contrib-grid p { font-size:1rem !important; font-weight:400 !important; line-height:1.6 !important; margin:0 0 1.8rem !important; font-family:europa, sans-serif !important; } }
+@media (min-width: 768px) { .tinycopy, div.tinycopy p, .contrib-grid p { font-family:europa, sans-serif !important; } }
+@media (min-width: 992px) { .tinycopy, div.tinycopy p, .contrib-grid p { font-family:europa, sans-serif !important; } }
+@media (min-width: 1300px) { .tinycopy, div.tinycopy p, .contrib-grid p { font-family:europa, sans-serif !important; } }
+@media (min-width: 0px) { .tinycopy > div { font-size:1rem !important; font-weight:400 !important; line-height:1.6 !important; } }
+@media (min-width: 768px) { .tinycopy > div { margin:0rem !important; } }
+@media (min-width: 992px) { .tinycopy > div { } }
+@media (min-width: 1300px) { .tinycopy > div { } }
+@media (min-width: 0px) { em { font-family:big-caslon-fb, serif !important; } }
+@media (min-width: 768px) { em { font-family:big-caslon-fb, serif !important; } }
+@media (min-width: 992px) { em { font-family:big-caslon-fb, serif !important; } }
+@media (min-width: 1300px) { em { font-family:big-caslon-fb, serif !important; } }
+@media (min-width: 0px) { h6 { font-size:1rem !important; font-weight:600 !important; line-height:1.5 !important; letter-spacing:1px !important; text-transform:uppercase !important; margin:0 0 1rem !important; font-family:europa, sans-serif !important; } }
+@media (min-width: 768px) { h6 { font-family:europa, sans-serif !important; } }
+@media (min-width: 992px) { h6 { font-family:europa, sans-serif !important; } }
+@media (min-width: 1300px) { h6 { font-family:europa, sans-serif !important; } }

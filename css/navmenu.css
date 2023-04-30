@@ -1,0 +1,93 @@
+	  .body {
+		  background-color:black
+	  }
+	  .navbar {
+		  background-color:white!important;
+	  }
+	  .dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; /* remove the gap so it doesn't close */
+}
+	  .nav li {
+/*
+		  padding-top: 3rem;
+		  padding-left: 1rem;
+    padding-right: 1rem;
+		  padding-bottom:3rem;
+*/
+		  line-height: 1em;
+	  }
+	  
+	  .nav li a {
+		      font-family: europa, sans-serif!important;
+    font-size: 1rem;
+    color: #000000!important;
+    letter-spacing: 0.12em;
+    line-height: 19.2px;
+		  text-transform: uppercase;
+		  font-weight:500;
+
+	  }
+	  
+	  ul.dropdown-menu {
+		      box-shadow: 0px 1px 14px rgba(0,0,0,0.05);
+    border: 1px solid rgb(191 190 187 / 50%);
+    border-radius: 5px;
+	  }
+	  
+	
+	  ul.nav a:hover { 
+		  color: rgba(0,0,0,0.5) !important; 
+	  }
+	  
+	  .nav {
+		  margin-right:0rem;
+	  }
+
+	.navbar-inverse {
+    border-radius: 0px;
+     border-style: none;
+		outline:0px;
+		box-shadow: 0 2px 4px 0 rgba(0,0,0,.05);
+	}
+	  
+	  ul.dropdown-menu a:hover { 
+		  color: rgba(0,0,0,0.5) !important; 
+		  background-color:white;
+	  }
+	  .dropdown-menu li {
+		  padding-top: 1rem;
+		  padding-bottom: 1rem;
+	  }
+.homelogo {
+/*	width:100%!important;*/
+/*	padding-right:1%!important;*/
+	margin: 0px!important;
+	align-content: center!important;
+	float:left;
+/*	object-fit: cover;*/
+	object-position: center;
+	background-size:contain;
+	
+}
+.dropdown-toggle {
+	margin-right:-10%!important;
+}
+
+.homelogoa {
+/*	width:50%;*/
+/*	background-size:contain;*/
+}
+
+.homelogodiv {
+/*	width:70%;*/
+/*	background-size:contain;*/
+/*	background-size: cover;*/
+}
+
+/*T R B L*/
+.navbar-brand {
+	margin: 0.5% 10%;
+	padding: 6px 5px 6px 0px;
+	
+}

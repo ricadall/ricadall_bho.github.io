@@ -1,0 +1,236 @@
+/*
+Theme Name: Talon Pro
+Theme URI: http://athemes.com/theme/talon-pro
+Author: aThemes
+Author URI: http://athemes.com
+Description: Talon is a multipurpose business theme built using the latest technologies. It's equally suited for both freelancers or companies and features an optimum level of customization oportunities.
+Version: 1.14
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: talon
+Tags: two-columns, right-sidebar, custom-colors, portfolio, full-width-template, custom-background, custom-header, custom-menu, custom-logo, featured-images, sticky-post, theme-options, threaded-comments, translation-ready
+
+Talon WordPress Theme, Copyright 2016 aThemes
+Talon is distributed under the terms of the GNU GPL v2 or later.
+
+Talon is based on Underscores http://underscores.me/, (C) 2012-2016 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+*/
+
+/*-------------------------------------------------------------------------*/
+/*	General style
+/*-------------------------------------------------------------------------*/
+
+/*-------------------------------------------------------------------------*/
+/*	Header style
+/*-------------------------------------------------------------------------*/
+
+/* Blog Sidebar */
+.portfolio-section {
+	text-align: center;
+}
+.projects-container {
+	max-width: 1800px;
+	margin: 0 auto;
+}
+.portfolio-item {
+	width: 25%;
+	display: inline-block;
+	padding: 7px;
+}
+.portfolio-filter {
+	text-align: center;
+	margin-bottom: 60px;
+	padding: 0;
+}
+.portfolio-filter ul li {
+	display: inline-block;
+}
+.portfolio-filter ul li a {
+	font-size: 16px;
+	margin: 0 15px;
+	padding-bottom: 13px;
+	color: #4f5d75;
+	border-bottom: 3px solid #fff;
+	transition: all 300ms ease 0s;
+}
+.portfolio-filter ul li a:hover {
+	color: #2d3142;
+}
+.portfolio-filter ul .active a {
+	color: #2d3142;
+	border-bottom: 3px solid #7261EE;
+}
+.portfolio-item img {
+	-webkit-transition: all 0.4s;
+	transition: all 0.4s;
+	position: relative;
+	z-index: 11;
+	top: 0;
+}
+.portfolio-item:hover img {
+	-webkit-transform: scale(0.4);
+	-ms-transform: scale(0.4);
+	transform: scale(0.4);
+	top: -50px;
+}
+.portfolio-item:hover .portfolio-content {
+     bottom: 50px;
+}
+.portfolio-item h4 {
+	margin-bottom: 0;
+}
+.portfolio-item h4 a {
+	color: #2d3142;
+}
+.portfolio-item h4 a:hover {
+	color: #7261EE;
+}
+.portfolio-item:hover .portfolio-content {
+	opacity: 1;
+}
+.portfolio-item span {
+	display: block;
+	margin-top: 10px;
+}
+.portfolio-content {
+	position: absolute;
+	bottom: 10px;
+	width: 100%;
+	text-align: center;
+	opacity: 0;
+	left: 0;
+	-webkit-transition: all 0.4s;
+	transition: all 0.4s;
+}
+
+.portfolio-section.style2 .portfolio-content {
+	bottom: 0;
+	opacity: 1;
+	z-index: 13;
+	padding: 0 10px 25px 25px;
+	text-align: left;
+}
+.portfolio-section.style2 .portfolio-item:hover .portfolio-content {
+     bottom: 20%;
+     padding-bottom: 0;
+}
+.portfolio-section.style2 .portfolio-item:hover img {
+	-webkit-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
+	top: auto;
+}
+.portfolio-section.style2 .portfolio-item > a {
+	display: block;
+	position: relative;
+}
+.portfolio-section.style2 .portfolio-item > a::before {
+	background-color: rgba(0, 0, 0, 0.6);
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 12;
+}
+.portfolio-section.style2 .portfolio-item > a {
+	overflow: hidden;
+}
+.portfolio-section.style2 .portfolio-item h4 a {
+	color: #e6e6e6;
+	position: relative;
+}
+.portfolio-section.style2 h4 a::before {
+	content: '';
+	position: absolute;
+	bottom: -5px;
+	left: 0;
+	width: 0;
+	height: 2px;
+	background-color: #ababad;
+	-webkit-transition: width 0.3s 0.3s;
+	transition: width 0.3s 0.3s;
+}
+.portfolio-section.style2 .portfolio-item:hover h4 a::before {
+	width: 100%;
+}
+
+
+.portfolio-section.style4 .portfolio-item:hover img,
+.portfolio-section.style3 .portfolio-item:hover img {
+	-webkit-transform: none;
+	-ms-transform: none;
+	transform: none;
+	top: auto;	
+}
+.portfolio-section.style3 .portfolio-item > a {
+	display: block;
+	position: relative;
+}
+.portfolio-section.style3 .portfolio-item > a::before {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 0;
+    background: -webkit-linear-gradient(top, rgba(68, 212, 80, 0) 0%, rgba(23, 23, 35, 0.8) 75%);
+    background: linear-gradient(to bottom, rgba(68, 212, 80, 0) 0%, rgba(23, 23, 35, 0.8) 75%);	
+    z-index: 13;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+}
+.portfolio-section.style3 .portfolio-item:hover > a::before {
+	height: 100%;
+}
+.portfolio-section.style3 .portfolio-item:hover .portfolio-content {
+	z-index: 14;
+}
+.portfolio-section.style4 .portfolio-item h4 a,
+.portfolio-section.style3 .portfolio-item h4 a {
+	color: #e6e6e6;
+	position: relative;
+}
+
+.portfolio-section.style4 .portfolio-content,
+.portfolio-section.style4 .portfolio-item img {
+	-webkit-transition: all 0.8s;
+	transition: all 0.8s;
+	opacity: 1;
+}
+.portfolio-section.style4 .portfolio-item > a {
+	display: block;
+	overflow: hidden;
+
+}
+.portfolio-section.style4 .portfolio-item:hover img {
+	top: -500px;
+}
+
+.portfolio-section.style4 .portfolio-content {
+	height: -webkit-calc(100% - 14px);
+	height: calc(100% - 14px);
+	width: -webkit-calc(100% - 14px);
+	width: calc(100% - 14px);
+    bottom: 0;
+    padding: 0;
+    background-color: #2a2d38;
+    top: 7px;
+    left: 7px;
+	display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;	
+    -webkit-align-items: center;
+    -ms-align-items: center;
+	align-items: center;
+}
+.portfolio-section.style4 .portfolio-content h4 {
+	width: 100%;
+	text-align: center;
+	margin: 0;
+}
+.portfolio-section.style4 .portfolio-item h4 a {
+	border-bottom: 2px solid #ababad;
+}

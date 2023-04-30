@@ -1,0 +1,615 @@
+/* Base Styling */
+/* ================================= */
+
+
+.soulmenu {
+	padding:0;
+	margin:0;
+}
+
+.soulmenu a {
+    text-decoration: none;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    backface-visibility: hidden;
+    justify-content: space-between;
+}
+
+/* Horizontal Menu Styling */
+/* ================================= */
+
+.soulmenu-style-horizontal,
+.soulmenu-style-horizontal ul {
+  float: none;
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+}
+
+.soulmenu-style-horizontal li {
+  display: inline-block;
+  font-size: 16px; /* = 16px */
+  position: relative;
+}
+
+.soulmenu-style-horizontal li a {
+  padding: 10px 15px;
+  text-decoration: none;
+}
+
+@media (hover:hover) {
+.soulmenu-style-horizontal .menu-item-has-children:hover > .sub-menu {
+    max-height: 100vh;
+}
+}
+	
+
+.soulmenu-style-horizontal ul li {
+  display: block;
+  float: none;
+}
+
+/* Hide Toggle on Desktop */
+/* @media only screen and (min-width: 992px) { */
+
+span.soulmenu-submenu-toggle {
+    padding: 0 .5rem;
+    display: inline-block;
+/*     font-size: 50%; */
+    vertical-align: middle;
+}
+
+.soulmenu-style-horizontal ul.opened {
+    max-height: 1000px;
+}
+
+  .soulmenu-style-horizontal ul {
+    position: absolute;
+    max-height: 0px;
+    overflow: hidden;
+    top: 100%;
+    z-index: 1000;
+    min-width: 200px;
+/*     background-color: #fff; */
+  }
+
+
+
+  .no-touchevents .soulmenu-style-horizontal li:hover > ul {
+    max-height: 1000px;
+  }
+
+.soulmenu-style-vertical ul {
+    max-height: 0px;
+    overflow: hidden;
+    /* background-color: #fff; */
+    margin: 0 0 0 1rem;
+    padding: 0 0 0 1rem;
+}
+
+.soulmenu-style-vertical ul.opened {
+    max-height: 1000px;
+}
+
+.soulmenu .menu-item-has-children > a:after {
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: .3rem solid transparent;
+    border-right: .3rem solid transparent;
+    border-top: .3rem solid;
+    margin: 0 0 0 .5rem;
+    /* right: 5%; */
+    /* position: absolute; */
+}
+
+.soulmenu-style-vertical .soulmenu-submenu-toggle {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 25%;
+}
+
+.soulmenu .fa-chevron-down {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%,-50%) scale(.75);
+    left: 50%;
+}
+
+/* } */
+
+/* 
+* COMMENTING OUT THIS CODE TO BE USED
+* LATER FOR THE VERTICAL MENU
+*/
+/*@media only screen and (max-width: 991px) {
+  .soulmenu-style-horizontal {
+    clear: both;
+    padding-top: 15px;
+  }
+  
+  .soulmenu-style-horizontal li {
+    float: none;
+    width: 100%;
+    display: block;
+  }
+
+  .soulmenu-style-horizontal li a {
+    border: 1px solid #eee;
+    border-top: none;
+  }
+
+  .soulmenu-style-horizontal > li:first-child > a {
+    border-top: 1px solid #eee;
+  }
+
+  .soulmenu-style-horizontal ul {
+    display: none;
+    padding-left: 20px;
+  }
+
+  .soulmenu-style-horizontal li.menu-item-has-children {
+    position: relative;
+  }
+
+  .soulmenu-style-horizontal .soulmenu-submenu-toggle {
+    position: absolute;
+    right: 0;
+    height: 48px;
+    border: none;
+    background: none;
+    width: 50px;
+    border-left: 1px solid #eee;
+    -webkit-transition: 0.25s all linear;
+    -o-transition: 0.25s all linear;
+    -moz-transition: 0.25s all linear;
+    transition: 0.25s all linear;
+  }
+
+  .soulmenu-style-horizontal .soulmenu-submenu-toggle:hover,
+  .soulmenu-style-horizontal .soulmenu-submenu-toggle:focus,
+  .soulmenu-style-horizontal .soulmenu-submenu-toggle--active {
+    outline: none;
+    background-color: #eee;
+  }
+
+  .soulmenu-style-horizontal .soulmenu-submenu-toggle:before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -3px;
+    margin-left: -6px;
+    border-top: 6px solid #000;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    -webkit-transition: 0.25s all linear;
+    -o-transition: 0.25s all linear;
+    -moz-transition: 0.25s all linear;
+    transition: 0.25s all linear;
+  }
+
+  .soulmenu-style-horizontal .soulmenu-submenu-toggle--active:before {
+    -webkit-transform: rotate(180deg);
+       -moz-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+         -o-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+
+   .soulmenu-style-horizontal .soulmenu-submenu-toggle:after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -6px;
+    margin-left: -6px;
+    border-top: 6px solid #fff;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+  } 
+}
+*/
+
+/* Menu Toggle */
+/* ================================= */
+
+.soulmenu-toggle {
+  border: none;
+  background: none;
+  float: right;
+  padding: 12px;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+  -webkit-box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.1);
+     -moz-box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.1);
+  -webkit-transition: 0.25s all linear;
+  -o-transition: 0.25s all linear;
+  -moz-transition: 0.25s all linear;
+  transition: 0.25s all linear;
+}
+
+.soulmenu-toggle span {
+  width: 25px;
+  height: 4px;
+  display: block;
+  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.7);
+  margin-bottom: 3px;
+}
+
+.soulmenu-toggle span:last-child {
+  margin-bottom: 0px;
+}
+
+.soulmenu-toggle:hover,
+.soulmenu-toggle:focus {
+  outline: none;
+  -webkit-box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2);
+     -moz-box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+.soulmenu-toggle.soulmenu-toggle--active {
+  -webkit-box-shadow: inset 0px 2px 3px rgba(0, 0, 0, 0.2);
+     -moz-box-shadow: inset 0px 2px 3px rgba(0, 0, 0, 0.2);
+          box-shadow: inset 0px 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+/* Hide Toggle on Desktop */
+@media only screen and (min-width: 992px) {
+  .soulmenu-toggle {
+    display: none !important;
+  }
+}
+
+/* Vertical Menu Styling */
+/* ================================= */
+
+
+.soulmenu-style-vertical li {
+    display: block;
+    position: relative;
+}
+
+/*
+.soulmenu-style-vertical a {
+    display: block;
+}
+*/
+
+
+/*
+     FILE ARCHIVED ON 03:38:11 Apr 18, 2022 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 05:51:09 Apr 17, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 68.78
+  exclusion.robots: 0.19
+  exclusion.robots.policy: 0.178
+  RedisCDXSource: 0.726
+  esindex: 0.008
+  LoadShardBlock: 44.564 (3)
+  PetaboxLoader3.datanode: 61.574 (5)
+  load_resource: 103.024
+  PetaboxLoader3.resolve: 24.27
+  loaddict: 62.648
+*/
+
+
+/* Base Styling */
+/* ================================= */
+
+
+.soulmenu {
+	padding:0;
+	margin:0;
+}
+
+.soulmenu a {
+    text-decoration: none;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    backface-visibility: hidden;
+    justify-content: space-between;
+}
+
+/* Horizontal Menu Styling */
+/* ================================= */
+
+.soulmenu-style-horizontal,
+.soulmenu-style-horizontal ul {
+  float: none;
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+}
+
+.soulmenu-style-horizontal li {
+  display: inline-block;
+  font-size: 16px; /* = 16px */
+  position: relative;
+}
+
+.soulmenu-style-horizontal li a {
+  padding: 10px 15px;
+  text-decoration: none;
+}
+
+@media (hover:hover) {
+.soulmenu-style-horizontal .menu-item-has-children:hover > .sub-menu {
+    max-height: 100vh;
+	overflow: visible!important;
+}
+}
+	
+
+.soulmenu-style-horizontal ul li {
+  display: block;
+  float: none;
+}
+
+/* Hide Toggle on Desktop */
+/* @media only screen and (min-width: 992px) { */
+
+span.soulmenu-submenu-toggle {
+    padding: 0 .5rem!important;
+    display: inline-block!important;
+/*     font-size: 50%; */
+    vertical-align: middle!important;
+}
+
+.soulmenu-style-horizontal ul.opened {
+    max-height: 1000px!important;
+}
+
+  .soulmenu-style-horizontal ul {
+    position: absolute;
+    max-height: 0px;
+    overflow: hidden;
+    top: 100%;
+    z-index: 1000;
+    min-width: 200px;
+/*     background-color: #fff; */
+  }
+
+
+
+  .no-touchevents .soulmenu-style-horizontal li:hover > ul {
+    max-height: 1000px;
+  }
+
+.soulmenu-style-vertical ul {
+    max-height: 0px;
+    overflow: hidden;
+    /* background-color: #fff; */
+    margin: 0 0 0 1rem;
+    padding: 0 0 0 1rem;
+}
+
+.soulmenu-style-vertical ul.opened {
+    max-height: 1000px!important;
+}
+
+.soulmenu .menu-item-has-children > a:after {
+    content: ''!important;
+    width: 0!important;
+    height: 0!important;
+    border-left: .3rem solid transparent!important;
+    border-right: .3rem solid transparent!important;
+    border-top: .3rem solid!important;
+    margin: 0 0 0 .5rem!important;
+    /* right: 5%; */
+    /* position: absolute; */
+}
+
+.soulmenu-style-vertical .soulmenu-submenu-toggle {
+    position: absolute!important;
+    right: 0!important;
+    top: 0!important;
+    width: 25%!important;
+}
+
+.soulmenu .fa-chevron-down {
+    position: absolute!important;
+    top: 50%!important;
+    transform: translate(-50%,-50%) scale(.75);
+    left: 50%;
+}
+
+/* } */
+
+/* 
+* COMMENTING OUT THIS CODE TO BE USED
+* LATER FOR THE VERTICAL MENU
+*/
+/*@media only screen and (max-width: 991px) {
+  .soulmenu-style-horizontal {
+    clear: both;
+    padding-top: 15px;
+  }
+  
+  .soulmenu-style-horizontal li {
+    float: none;
+    width: 100%;
+    display: block;
+  }
+
+  .soulmenu-style-horizontal li a {
+    border: 1px solid #eee;
+    border-top: none;
+  }
+
+  .soulmenu-style-horizontal > li:first-child > a {
+    border-top: 1px solid #eee;
+  }
+
+  .soulmenu-style-horizontal ul {
+    display: none;
+    padding-left: 20px;
+  }
+
+  .soulmenu-style-horizontal li.menu-item-has-children {
+    position: relative;
+  }
+
+  .soulmenu-style-horizontal .soulmenu-submenu-toggle {
+    position: absolute;
+    right: 0;
+    height: 48px;
+    border: none;
+    background: none;
+    width: 50px;
+    border-left: 1px solid #eee;
+    -webkit-transition: 0.25s all linear;
+    -o-transition: 0.25s all linear;
+    -moz-transition: 0.25s all linear;
+    transition: 0.25s all linear;
+  }
+
+  .soulmenu-style-horizontal .soulmenu-submenu-toggle:hover,
+  .soulmenu-style-horizontal .soulmenu-submenu-toggle:focus,
+  .soulmenu-style-horizontal .soulmenu-submenu-toggle--active {
+    outline: none;
+    background-color: #eee;
+  }
+
+  .soulmenu-style-horizontal .soulmenu-submenu-toggle:before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -3px;
+    margin-left: -6px;
+    border-top: 6px solid #000;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    -webkit-transition: 0.25s all linear;
+    -o-transition: 0.25s all linear;
+    -moz-transition: 0.25s all linear;
+    transition: 0.25s all linear;
+  }
+
+  .soulmenu-style-horizontal .soulmenu-submenu-toggle--active:before {
+    -webkit-transform: rotate(180deg);
+       -moz-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+         -o-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+
+   .soulmenu-style-horizontal .soulmenu-submenu-toggle:after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -6px;
+    margin-left: -6px;
+    border-top: 6px solid #fff;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+  } 
+}
+*/
+
+/* Menu Toggle */
+/* ================================= */
+
+.soulmenu-toggle {
+  border: none;
+  background: none;
+  float: right;
+  padding: 12px;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+  -webkit-box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.1);
+     -moz-box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.1);
+  -webkit-transition: 0.25s all linear;
+  -o-transition: 0.25s all linear;
+  -moz-transition: 0.25s all linear;
+  transition: 0.25s all linear;
+}
+
+.soulmenu-toggle span {
+  width: 25px;
+  height: 4px;
+  display: block;
+  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.7);
+  margin-bottom: 3px;
+}
+
+.soulmenu-toggle span:last-child {
+  margin-bottom: 0px;
+}
+
+.soulmenu-toggle:hover,
+.soulmenu-toggle:focus {
+  outline: none;
+  -webkit-box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2);
+     -moz-box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+.soulmenu-toggle.soulmenu-toggle--active {
+  -webkit-box-shadow: inset 0px 2px 3px rgba(0, 0, 0, 0.2);
+     -moz-box-shadow: inset 0px 2px 3px rgba(0, 0, 0, 0.2);
+          box-shadow: inset 0px 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+/* Hide Toggle on Desktop */
+@media only screen and (min-width: 992px) {
+  .soulmenu-toggle {
+    display: none !important;
+  }
+}
+
+/* Vertical Menu Styling */
+/* ================================= */
+
+
+.soulmenu-style-vertical li {
+    display: block;
+    position: relative;
+}
+
+/*
+.soulmenu-style-vertical a {
+    display: block;
+}
+*/
+
+
+/*
+     FILE ARCHIVED ON 03:38:11 Apr 18, 2022 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 01:12:12 Apr 18, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 121.629
+  exclusion.robots: 0.064
+  exclusion.robots.policy: 0.056
+  cdx.remote: 0.058
+  esindex: 0.007
+  LoadShardBlock: 96.547 (3)
+  PetaboxLoader3.datanode: 113.427 (5)
+  load_resource: 100.468
+  PetaboxLoader3.resolve: 44.716
+  loaddict: 35.131
+*/

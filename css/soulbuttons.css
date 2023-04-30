@@ -1,0 +1,158 @@
+.closebutton {
+    position: relative;
+/*     color: white; */
+    width: 100%;
+    height: 40px;
+    text-align: right;
+    padding: 0 5%;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    /* background: rgba(255, 255, 255, 0.05); */
+    z-index: 1;
+    cursor: pointer;
+    font-family: sans-serif!important;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.close-button-inside-upper-right .closebutton {
+    position: absolute;
+    font-size: 2rem;
+    padding: 2.5% 5%;
+}
+
+.soulbuttons-open .ss-subsection, .wost-parent .ss-subsection{
+	overflow-y:auto;
+	-webkit-overflow-scrolling: touch;
+}
+
+.soulbuttons-modal-open, .soulbuttons-modal-open body{
+	position: relative;
+	overflow:hidden!important;
+}
+
+.soulbuttons {
+    display: inline-flex;
+	border-style:solid;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+}
+
+/* EDD 'Add to Cart' Text Styling */
+.soulbuttons.edd-dark-bg + .edd-cart-ajax-alert .edd-cart-added-alert{
+	color:#fff;
+}
+
+
+
+/* disable Twenty Sixteen persistent hover effects */
+.entry-content a.soulbuttons{
+  box-shadow: none;
+}
+/* disable Twenty Seventeen persistent hover effects */
+.entry-content a.soulbuttons:hover{
+  box-shadow: none;
+}
+
+
+
+/* dashicons compatibility */
+.soulbuttons .dashicons {
+  display: inline-block;
+  /*line-height: inherit;*/
+  font-style: inherit;
+  height: inherit;
+  font-weight: inherit;
+  vertical-align: middle;
+  font-size: inherit;
+  font-size:80%;
+}
+
+.soulbuttons .dashicons::before {
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+.modal-d .closebutton{
+	padding:0;
+}
+
+
+/* hover animations */
+
+.soulbuttons .soulbuttons-icon {
+  position:relative;
+  transition: all 0.3s;
+      margin: 0 .25rem;
+
+}
+
+.soulbuttons-hover-icon-right .soulbuttons-icon {
+  left:0;
+}
+.soulbuttons-hover-icon-right:hover .soulbuttons-icon {
+  left:0.25rem;
+}
+
+.soulbuttons-hover-icon-left .soulbuttons-icon {
+  right:0;
+}
+.soulbuttons-hover-icon-left:hover .soulbuttons-icon {
+  right:0.25rem;
+}
+
+.soulbuttons-hover-icon-down .soulbuttons-icon {
+  top:0;
+}
+.soulbuttons-hover-icon-down:hover .soulbuttons-icon {
+  top:0.25rem;
+}
+
+.soulbuttons-hover-icon-up .soulbuttons-icon {
+  bottom:0;
+}
+.soulbuttons-hover-icon-up:hover .soulbuttons-icon {
+  bottom:0.25rem;
+}
+
+.soulbuttons-hover-underline:hover {
+  text-decoration: underline;
+}
+
+
+.soulbuttons .fa:before {
+    vertical-align: middle;
+}
+
+/* text alignment */
+
+.soulbuttons-align-left {
+  text-align: left;
+}
+.soulbuttons-align-right {
+  text-align: right;
+}
+
+/*
+     FILE ARCHIVED ON 03:38:18 Apr 18, 2022 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 05:40:52 Apr 17, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 191.144
+  exclusion.robots: 0.185
+  exclusion.robots.policy: 0.175
+  cdx.remote: 0.066
+  esindex: 0.009
+  LoadShardBlock: 94.118 (3)
+  PetaboxLoader3.datanode: 145.033 (7)
+  load_resource: 208.887 (2)
+  PetaboxLoader3.resolve: 57.772 (2)
+  loaddict: 117.016 (2)
+*/
